@@ -1,15 +1,7 @@
 {
   "actions": [
     {
-      "name": "/actions/default/in/InteractUI",
-      "type": "boolean"
-    },
-    {
       "name": "/actions/default/in/Teleport",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/default/in/GrabPinch",
       "type": "boolean"
     },
     {
@@ -22,18 +14,13 @@
     },
     {
       "name": "/actions/default/in/SkeletonLeftHand",
-      "type": "skeleton",
+      "type": "pose",
       "skeleton": "/skeleton/hand/left"
     },
     {
       "name": "/actions/default/in/SkeletonRightHand",
-      "type": "skeleton",
+      "type": "pose",
       "skeleton": "/skeleton/hand/right"
-    },
-    {
-      "name": "/actions/default/in/Squeeze",
-      "type": "vector1",
-      "requirement": "optional"
     },
     {
       "name": "/actions/default/in/HeadsetOnHead",
@@ -117,9 +104,7 @@
   "localization": [
     {
       "language_tag": "en_US",
-      "/actions/default/in/GrabPinch": "Grab Pinch",
       "/actions/default/in/HeadsetOnHead": "Headset on head (proximity sensor)",
-      "/actions/default/in/InteractUI": "Interact With UI",
       "/actions/default/in/Pose": "Pose",
       "/actions/default/in/SkeletonLeftHand": "Skeleton (Left)",
       "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",

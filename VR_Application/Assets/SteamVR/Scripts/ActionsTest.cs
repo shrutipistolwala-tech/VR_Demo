@@ -6,7 +6,7 @@ using Valve.VR;
 
 public class ActionsTest : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     public SteamVR_Input_Sources handType; // 1
     public SteamVR_Action_Boolean teleportAction; // 2
     public SteamVR_Action_Boolean grabAction; // 3
