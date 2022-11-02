@@ -11,7 +11,7 @@ public SteamVR_Input_Sources handType;
 public SteamVR_Behaviour_Pose controllerPose;
 public SteamVR_Action_Boolean grabAction;
 
-private GameObject collidingObject; // Stores the gameObject that the triggger is currently colliding with so that u have the ability to grab the object
+private GameObject collidingObject; // Stores the gameObject that the trigger is currently colliding with so that u have the ability to grab the object
 private GameObject objectInHand; // Serves as a reference to the game object that the player is currently grabbing
 
 
