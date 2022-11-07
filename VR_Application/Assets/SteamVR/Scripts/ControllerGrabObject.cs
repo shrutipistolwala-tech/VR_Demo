@@ -68,7 +68,7 @@ private FixedJoint AddFixedJoint()
 }
 private void ReleaseObject()
 {
-    // Make sure there’s a fixed joint attached to the controller.
+    // Make sure there’s a fixed joint attached to the controller
     if (GetComponent<FixedJoint>())
     {
         // Remove the connection to the object held by the joint and destroy the joint.
@@ -86,7 +86,7 @@ private void ReleaseObject()
     // Update is called once per frame
     void Update()
     {
-        // When the player triggers the Grab action, grab the object.1
+        // When the player triggers the Grab action, grab the object
 if (grabAction.GetLastStateDown(handType))
 {
     if (collidingObject)
